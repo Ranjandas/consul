@@ -72,7 +72,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.21.10
 	github.com/stretchr/testify v1.7.0
 	go.etcd.io/bbolt v1.3.5
-	go.uber.org/goleak v1.1.10
+	go.uber.org/goleak v1.1.12
 	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a
 	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
@@ -173,10 +173,8 @@ require (
 	github.com/vmware/govmomi v0.18.0 // indirect
 	go.opencensus.io v0.22.3 // indirect
 	go.opentelemetry.io/proto/otlp v0.7.0 // indirect
-	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
 	golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1 // indirect
 	golang.org/x/text v0.3.6 // indirect
-	golang.org/x/tools v0.1.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/api v0.28.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
