@@ -74,7 +74,7 @@ jobs:
           go-version-file: 'go.mod'
 
       - name: Fetch Consul binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4.1.4
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: ./bin
@@ -288,7 +288,7 @@ jobs:
           go-version-file: 'go.mod'
 
       - name: fetch binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4.1.4
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: ./bin
@@ -379,7 +379,7 @@ jobs:
           docker version
           docker info
       - name: fetch binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4.1.4
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: .
@@ -492,7 +492,7 @@ jobs:
 
       # Get go binary from workspace
       - name: fetch binary
-        uses: actions/download-artifact@9bc31d5ccc31df68ecc42ccf4149144866c47d8a # v3.0.2
+        uses: actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427 # v4.1.4
         with:
           name: '${{ env.CONSUL_BINARY_UPLOAD_NAME }}'
           path: .
