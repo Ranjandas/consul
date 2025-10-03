@@ -1,6 +1,6 @@
 module github.com/hashicorp/consul
 
-go 1.20
+go 1.23
 
 replace (
 	github.com/hashicorp/consul/api => ./api
@@ -31,7 +31,7 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-openapi/runtime v0.25.0
 	github.com/go-openapi/strfmt v0.21.3
-	github.com/google/go-cmp v0.5.9
+	github.com/google/go-cmp v0.7.0
 	github.com/google/gofuzz v1.2.0
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1
 	github.com/google/tcpproxy v0.0.0-20180808230851-dfa16c61dad2
@@ -111,7 +111,7 @@ require (
 	golang.org/x/time v0.3.0
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
 	google.golang.org/grpc v1.55.0
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/protobuf v1.36.10
 	gopkg.in/square/go-jose.v2 v2.5.1
 	gotest.tools/v3 v3.4.0
 	k8s.io/api v0.26.2
